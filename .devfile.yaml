@@ -1,0 +1,16 @@
+schemaVersion: 2.2.0
+metadata:
+  attributes:
+    metadata-name-field: generateName
+    metadata-name-original-value: simple-openai
+  name: simple-openai
+  namespace: sashirestela-dev
+components:
+  - name: universal-developer-image
+    container:
+      image: quay.io/devfile/universal-developer-image:ubi8-latest
+      mountSources: true
+      memoryRequest: 8G
+      memoryLimit: 8G
+      cpuRequest: 4000m
+      cpuLimit: 6000m
