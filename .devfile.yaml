@@ -9,7 +9,6 @@ components:
   - name: universal-developer-image
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-latest
-      mountSources: true
       memoryRequest: 8G
       memoryLimit: 8G
       cpuRequest: 4000m
